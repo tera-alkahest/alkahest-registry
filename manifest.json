@@ -1,12 +1,18 @@
 [
     {
-        "name": "csharp_example",
+        "type": "csharp",
+        "name": "csharp-example",
+        "description": "An example C# script package.",
+        "license": "ISC",
         "owner": "tera-alkahest",
-        "repository": "csharp-example"
+        "repository": "alkahest-csharp-example"
     },
     {
-        "name": "python_example",
+        "type": "python",
+        "name": "python-example",
+        "description": "An example Python script package.",
+        "license": "ISC",
         "owner": "tera-alkahest",
-        "repository": "python-example"
+        "repository": "alkahest-python-example"
     }
 ]

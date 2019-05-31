@@ -6,7 +6,19 @@
     "items": {
         "type": "object",
         "properties": {
+            "type": {
+                "enum": [
+                    "csharp",
+                    "python"
+                ]
+            },
             "name": {
+                "type": "string"
+            },
+            "description": {
+                "type": "string"
+            },
+            "license": {
                 "type": "string"
             },
             "owner": {
@@ -17,7 +29,10 @@
             }
         },
         "required": [
+            "type",
             "name",
+            "description",
+            "license",
             "owner",
             "repository"
         ]

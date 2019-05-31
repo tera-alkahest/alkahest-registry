@@ -4,19 +4,7 @@
     "title": "Alkahest Package",
     "type": "object",
     "properties": {
-        "type": {
-            "enum": [
-                "csharp",
-                "python"
-            ]
-        },
-        "description": {
-            "type": "string"
-        },
         "version": {
-            "type": "string"
-        },
-        "license": {
             "type": "string"
         },
         "contributors": {
@@ -45,9 +33,7 @@
         }
     },
     "required": [
-        "description",
         "version",
-        "license",
         "files"
     ]
 }
