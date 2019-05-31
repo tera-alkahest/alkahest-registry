@@ -1,6 +1,6 @@
 [
     {
-        "type": "csharp",
+        "kind": "csharp",
         "name": "csharp-example",
         "description": "An example C# script package.",
         "license": "ISC",
@@ -8,7 +8,7 @@
         "repository": "alkahest-csharp-example"
     },
     {
-        "type": "python",
+        "kind": "python",
         "name": "python-example",
         "description": "An example Python script package.",
         "license": "ISC",

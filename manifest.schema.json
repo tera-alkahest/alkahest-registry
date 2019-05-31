@@ -6,7 +6,7 @@
     "items": {
         "type": "object",
         "properties": {
-            "type": {
+            "kind": {
                 "enum": [
                     "csharp",
                     "python"
