@@ -1,0 +1,12 @@
+[
+    {
+        "name": "csharp_example",
+        "owner": "tera-alkahest",
+        "repository": "csharp-example"
+    },
+    {
+        "name": "python_example",
+        "owner": "tera-alkahest",
+        "repository": "python-example"
+    }
+]

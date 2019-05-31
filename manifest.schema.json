@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://raw.githubusercontent.com/tera-alkahest/alkahest-registry/master/schema.json",
+    "title": "Alkahest Registry Manifest",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string"
+            },
+            "owner": {
+                "type": "string"
+            },
+            "repository": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "name",
+            "owner",
+            "repository"
+        ]
+    }
+}

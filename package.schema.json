@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://raw.githubusercontent.com/tera-alkahest/alkahest-registry/master/schema.json",
+    "title": "Alkahest Package",
+    "type": "object",
+    "properties": {
+        "description": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        },
+        "license": {
+            "type": "string"
+        },
+        "contributors": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "conflicts": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "files": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    },
+    "required": [
+        "description",
+        "version",
+        "license",
+        "files"
+    ]
+}
