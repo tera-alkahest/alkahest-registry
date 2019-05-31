@@ -7,29 +7,35 @@
         "type": "object",
         "properties": {
             "kind": {
+                "description": "Programming language of the package.",
                 "enum": [
                     "csharp",
                     "python"
                 ]
             },
             "name": {
+                "description": "Name of the package.",
                 "type": "string"
             },
             "description": {
+                "description": "Brief description of the package.",
                 "type": "string"
             },
             "license": {
+                "description": "SPDX license identifier of the package.",
                 "type": "string"
             },
             "owner": {
+                "description": "GitHub username of the package owner.",
                 "type": "string"
             },
             "repository": {
+                "description": "GitHub repository name (under owner) for the package.",
                 "type": "string"
             }
         },
         "required": [
-            "type",
+            "kind",
             "name",
             "description",
             "license",

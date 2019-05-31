@@ -5,9 +5,11 @@
     "type": "object",
     "properties": {
         "version": {
+            "description": "Version of the package.",
             "type": "string"
         },
         "contributors": {
+            "description": "GitHub usernames of people who contributed to the package.",
             "type": "array",
             "items": {
                 "type": "string"
@@ -16,6 +18,7 @@
             "uniqueItems": true
         },
         "conflicts": {
+            "description": "Names of packages that are incompatible with this package.",
             "type": "array",
             "items": {
                 "type": "string"
@@ -24,6 +27,7 @@
             "uniqueItems": true
         },
         "files": {
+            "description": "Files to install from the package repository.",
             "type": "array",
             "items": {
                 "type": "string"
