@@ -25,7 +25,16 @@
             },
             "minItems": 1,
             "uniqueItems": true
-        }
+        },
+        "dependencies": {
+            "description": "Names of packages that this package depends on.",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
         "conflicts": {
             "description": "Names of packages that are incompatible with this package.",
             "type": "array",
@@ -34,7 +43,7 @@
             },
             "minItems": 1,
             "uniqueItems": true
-        },
+        }
     },
     "required": [
         "version",
