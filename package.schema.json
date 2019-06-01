@@ -17,15 +17,6 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "conflicts": {
-            "description": "Names of packages that are incompatible with this package.",
-            "type": "array",
-            "items": {
-                "type": "string"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-        },
         "files": {
             "description": "Files to install from the package repository.",
             "type": "array",
@@ -35,6 +26,15 @@
             "minItems": 1,
             "uniqueItems": true
         }
+        "conflicts": {
+            "description": "Names of packages that are incompatible with this package.",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
     },
     "required": [
         "version",
