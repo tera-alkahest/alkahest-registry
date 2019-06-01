@@ -1,7 +1,7 @@
 [
     {
         "kind": "csharp",
-        "name": "csharp-example",
+        "name": "csharp_example",
         "description": "An example C# script package.",
         "license": "ISC",
         "owner": "tera-alkahest",
@@ -9,7 +9,7 @@
     },
     {
         "kind": "python",
-        "name": "python-example",
+        "name": "python_example",
         "description": "An example Python script package.",
         "license": "ISC",
         "owner": "tera-alkahest",
