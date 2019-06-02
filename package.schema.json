@@ -43,6 +43,17 @@
             },
             "minItems": 1,
             "uniqueItems": true
+        },
+        "assets": {
+            "description": "Assets that the package requires.",
+            "type": "array",
+            "items": {
+                "enum": [
+                    "datacenter"
+                ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
         }
     },
     "required": [
