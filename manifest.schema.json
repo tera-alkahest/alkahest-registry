@@ -6,13 +6,6 @@
     "items": {
         "type": "object",
         "properties": {
-            "kind": {
-                "description": "Programming language of the package.",
-                "enum": [
-                    "csharp",
-                    "python"
-                ]
-            },
             "name": {
                 "description": "Name of the package.",
                 "type": "string"
@@ -35,7 +28,6 @@
             }
         },
         "required": [
-            "kind",
             "name",
             "description",
             "license",
