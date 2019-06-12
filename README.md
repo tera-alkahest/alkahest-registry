@@ -1,4 +1,4 @@
-# ![Alkahest](Alkahest.ico) Alkahest Registry
+# <img src="https://raw.githubusercontent.com/tera-alkahest/alkahest/master/Alkahest.ico" width="32"> Alkahest Registry
 
 This is the official **Alkahest** package registry. Various Alkahest commands
 (e.g. `search`, `info`, `install`) use this repository to find packages.
