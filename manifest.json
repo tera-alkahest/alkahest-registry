@@ -5,5 +5,12 @@
         "license": "ISC",
         "owner": "tera-alkahest",
         "repository": "alkahest-example"
+    },
+    {
+        "name": "no-cutscenes",
+        "description": "Disables cutscenes.",
+        "license": "ISC",
+        "owner": "alexrp",
+        "repository": "no-cutscenes"
     }
 ]
